@@ -1,0 +1,31 @@
+.lista{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+   
+        } 
+
+.titoli{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+        }
+.titoli h1{
+    font-size: 30px;
+    border: 1px solid black;
+}
+.sottotitoli{
+text-decoration: underline;
+  background-color: aquamarine;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: rgba(48, 25, 201, 0.692);
+}
+.lista ol li {
+
+     list-style: upper-roman;
+}
