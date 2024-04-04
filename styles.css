@@ -1,3 +1,8 @@
+body{
+    height: 3000px;
+}
+
+
 .lista{ 
     display: flex; 
     align-items: center; 
@@ -28,4 +33,49 @@ a{
 .lista ol li {
 
      list-style: upper-roman;
+}
+
+img{
+     display: flex; 
+        align-items: center; 
+        justify-content: center;
+}
+.lista ol li{
+ 
+    position: relative;
+
+}
+.lista ol li span{
+
+    margin-left: 20%;
+}
+.lista ol li a img {
+    transform: translateY(50%);
+}
+
+
+/* Stile generale della scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* Larghezza della scrollbar */
+}
+
+/* Stile del track della scrollbar */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Colore di sfondo del track */
+}
+
+/* Stile della thumb della scrollbar (la parte trascinabile) */
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Colore della thumb */
+  border-radius: 5px; /* Bordo arrotondato */
+}
+
+/* Stile del pulsante della scrollbar (freccette) */
+::-webkit-scrollbar-button {
+  background-color: #555; /* Colore del pulsante */
+}
+
+/* Stile dell'angolo della scrollbar */
+::-webkit-scrollbar-corner {
+  background-color: #999; /* Colore dell'angolo */
 }
